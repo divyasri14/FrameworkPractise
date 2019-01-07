@@ -45,11 +45,10 @@ public class DropDownControl implements iDropDown {
 		
 		return getElement(element).getOptions();
 	}
-
 	@Override
 	public List<WebElement> getAllSelectedOptions(WebElement element) throws Exception {
-		
-		 return getElement(element).getAllSelectedOptions();
+
+		return getElement(element).getAllSelectedOptions();
 	}
 
 	@Override
